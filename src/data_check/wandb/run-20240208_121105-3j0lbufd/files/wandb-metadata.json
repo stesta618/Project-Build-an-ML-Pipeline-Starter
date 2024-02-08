@@ -1,0 +1,89 @@
+{
+    "os": "Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.9.18",
+    "heartbeatAt": "2024-02-08T17:11:07.428250",
+    "startedAt": "2024-02-08T17:11:05.920748",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        ".",
+        "-vv",
+        "--csv",
+        "clean_sample.csv:latest",
+        "--ref",
+        "clean_sample.csv:reference",
+        "--kl_threshold",
+        "0.2",
+        "--min_price",
+        "10",
+        "--max_price",
+        "350"
+    ],
+    "state": "running",
+    "program": "/home/stesta/miniconda3/envs/mlflow-af6473294b18f57ea960125076520147a7a4be59/bin/pytest",
+    "git": {
+        "remote": "https://github.com/stesta618/Project-Build-an-ML-Pipeline-Starter.git",
+        "commit": "c66b3cb8d2d2d89f56785fe5123c496768377d00"
+    },
+    "email": "shil699@wgu.edu",
+    "root": "/home/stesta/Project-Build-an-ML-Pipeline-Starter",
+    "host": "Shannon-Laptop",
+    "username": "stesta",
+    "executable": "/home/stesta/miniconda3/envs/mlflow-af6473294b18f57ea960125076520147a7a4be59/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2112.007,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2112.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.007,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 1006.853931427002,
+        "used": 17.94170379638672
+    },
+    "memory": {
+        "total": 3.720684051513672
+    }
+}

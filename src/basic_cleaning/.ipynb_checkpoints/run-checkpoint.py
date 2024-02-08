@@ -32,7 +32,7 @@ def go(args):
     idx = df['price'].between(float(args.min_price), float(args.max_price))
     df = df[idx].copy()
     df['last_review'] = pd.to_datetime(df['last_review'])
-    # TODO: add code to fix the issue happened when testing the model
+    
     
 
     # Save the cleaned data

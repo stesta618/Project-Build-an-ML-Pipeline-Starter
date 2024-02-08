@@ -1,0 +1,15 @@
+artifact_uri: file:///home/stesta/Project-Build-an-ML-Pipeline-Starter/mlruns/0/cb2bc83ebac3441b9eefc5f8730a0bee/artifacts
+end_time: 1707411564175
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cb2bc83ebac3441b9eefc5f8730a0bee
+run_name: enthused-colt-766
+run_uuid: cb2bc83ebac3441b9eefc5f8730a0bee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707411479028
+status: 3
+tags: []
+user_id: stesta

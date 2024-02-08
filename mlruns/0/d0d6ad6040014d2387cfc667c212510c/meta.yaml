@@ -1,0 +1,15 @@
+artifact_uri: file:///home/stesta/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d0d6ad6040014d2387cfc667c212510c/artifacts
+end_time: 1707411563703
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d0d6ad6040014d2387cfc667c212510c
+run_name: charming-hog-272
+run_uuid: d0d6ad6040014d2387cfc667c212510c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707411483142
+status: 3
+tags: []
+user_id: stesta

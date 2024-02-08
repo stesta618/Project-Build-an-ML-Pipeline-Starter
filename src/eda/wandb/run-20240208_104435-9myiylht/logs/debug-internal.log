@@ -1,0 +1,336 @@
+2024-02-08 10:44:35,460 INFO    StreamThr :28403 [internal.py:wandb_internal():87] W&B internal server running at pid: 28403, started at: 2024-02-08 10:44:35.457896
+2024-02-08 10:44:35,471 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status
+2024-02-08 10:44:35,481 INFO    WriterThread:28403 [datastore.py:open_for_write():85] open: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/run-9myiylht.wandb
+2024-02-08 10:44:35,483 DEBUG   SenderThread:28403 [sender.py:send():334] send: header
+2024-02-08 10:44:35,624 DEBUG   SenderThread:28403 [sender.py:send():334] send: run
+2024-02-08 10:44:36,236 INFO    SenderThread:28403 [dir_watcher.py:__init__():216] watching files in: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files
+2024-02-08 10:44:36,236 INFO    SenderThread:28403 [sender.py:_start_run_threads():1065] run started: 9myiylht with start time 1707407075.459837
+2024-02-08 10:44:36,236 DEBUG   SenderThread:28403 [sender.py:send_request():361] send_request: summary_record
+2024-02-08 10:44:36,237 INFO    SenderThread:28403 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-02-08 10:44:36,239 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: check_version
+2024-02-08 10:44:36,240 DEBUG   SenderThread:28403 [sender.py:send_request():361] send_request: check_version
+2024-02-08 10:44:36,451 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: run_start
+2024-02-08 10:44:36,456 DEBUG   HandlerThread:28403 [system_info.py:__init__():31] System info init
+2024-02-08 10:44:36,456 DEBUG   HandlerThread:28403 [system_info.py:__init__():46] System info init done
+2024-02-08 10:44:36,456 INFO    HandlerThread:28403 [system_monitor.py:start():151] Starting system monitor
+2024-02-08 10:44:36,457 INFO    SystemMonitor:28403 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-02-08 10:44:36,459 INFO    HandlerThread:28403 [system_monitor.py:probe():172] Collecting system info
+2024-02-08 10:44:36,462 INFO    SystemMonitor:28403 [interfaces.py:start():168] Started cpu
+2024-02-08 10:44:36,465 INFO    SystemMonitor:28403 [interfaces.py:start():168] Started disk
+2024-02-08 10:44:36,467 INFO    SystemMonitor:28403 [interfaces.py:start():168] Started memory
+2024-02-08 10:44:36,468 INFO    SystemMonitor:28403 [interfaces.py:start():168] Started network
+2024-02-08 10:44:36,488 DEBUG   HandlerThread:28403 [system_info.py:probe():195] Probing system
+2024-02-08 10:44:36,590 DEBUG   HandlerThread:28403 [system_info.py:_probe_git():180] Probing git
+2024-02-08 10:44:36,632 DEBUG   HandlerThread:28403 [system_info.py:_probe_git():188] Probing git done
+2024-02-08 10:44:36,633 DEBUG   HandlerThread:28403 [system_info.py:probe():241] Probing system done
+2024-02-08 10:44:36,633 DEBUG   HandlerThread:28403 [system_monitor.py:probe():181] {'os': 'Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.9.15', 'heartbeatAt': '2024-02-08T15:44:36.488264', 'startedAt': '2024-02-08T15:44:35.428509', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'src/eda/eda.ipynb', 'root': '/home/stesta/Project-Build-an-ML-Pipeline-Starter', 'git': {'remote': 'https://github.com/stesta618/Project-Build-an-ML-Pipeline-Starter.git', 'commit': '077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98'}, 'email': 'shil699@wgu.edu', 'host': 'Shannon-Laptop', 'username': 'stesta', 'executable': '/home/stesta/miniconda3/envs/nyc_airbnb_dev/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2112.007, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2112.007, 'min': 0.0, 'max': 0.0}, {'current': 2112.007, 'min': 0.0, 'max': 0.0}, {'current': 2112.007, 'min': 0.0, 'max': 0.0}, {'current': 2112.007, 'min': 0.0, 'max': 0.0}, {'current': 2112.007, 'min': 0.0, 'max': 0.0}, {'current': 2112.007, 'min': 0.0, 'max': 0.0}, {'current': 2112.007, 'min': 0.0, 'max': 0.0}, {'current': 2112.007, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 1006.853931427002, 'used': 17.576202392578125}, 'memory': {'total': 3.720684051513672}}
+2024-02-08 10:44:36,634 INFO    HandlerThread:28403 [system_monitor.py:probe():182] Finished collecting system info
+2024-02-08 10:44:36,634 INFO    HandlerThread:28403 [system_monitor.py:probe():185] Publishing system info
+2024-02-08 10:44:36,634 DEBUG   HandlerThread:28403 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-02-08 10:44:36,635 DEBUG   HandlerThread:28403 [system_info.py:_save_pip():67] Saving pip packages done
+2024-02-08 10:44:36,635 DEBUG   HandlerThread:28403 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-02-08 10:44:37,236 INFO    Thread-14 :28403 [dir_watcher.py:_on_file_created():275] file/dir created: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/requirements.txt
+2024-02-08 10:44:37,236 INFO    Thread-14 :28403 [dir_watcher.py:_on_file_created():275] file/dir created: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/conda-environment.yaml
+2024-02-08 10:44:37,236 INFO    Thread-14 :28403 [dir_watcher.py:_on_file_created():275] file/dir created: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/wandb-summary.json
+2024-02-08 10:44:41,645 DEBUG   HandlerThread:28403 [system_info.py:_save_conda():86] Saving conda packages done
+2024-02-08 10:44:41,645 DEBUG   HandlerThread:28403 [system_info.py:_save_code():89] Saving code
+2024-02-08 10:44:41,645 WARNING HandlerThread:28403 [system_info.py:_save_code():91] unable to save code -- program entry not found
+2024-02-08 10:44:41,645 DEBUG   HandlerThread:28403 [system_info.py:_save_patches():127] Saving git patches
+2024-02-08 10:44:42,025 DEBUG   HandlerThread:28403 [system_info.py:_save_patches():169] Saving git patches done
+2024-02-08 10:44:42,025 INFO    HandlerThread:28403 [system_monitor.py:probe():187] Finished publishing system info
+2024-02-08 10:44:42,029 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:44:42,029 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:44:42,030 DEBUG   SenderThread:28403 [sender.py:send():334] send: files
+2024-02-08 10:44:42,030 INFO    SenderThread:28403 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2024-02-08 10:44:42,031 INFO    SenderThread:28403 [sender.py:_save_file():1319] saving file diff.patch with policy now
+2024-02-08 10:44:42,056 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-08 10:44:42,057 DEBUG   SenderThread:28403 [sender.py:send_request():361] send_request: stop_status
+2024-02-08 10:44:42,237 INFO    Thread-14 :28403 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/conda-environment.yaml
+2024-02-08 10:44:42,237 INFO    Thread-14 :28403 [dir_watcher.py:_on_file_created():275] file/dir created: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/wandb-metadata.json
+2024-02-08 10:44:42,238 INFO    Thread-14 :28403 [dir_watcher.py:_on_file_created():275] file/dir created: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/diff.patch
+2024-02-08 10:44:42,298 DEBUG   SenderThread:28403 [sender.py:send():334] send: telemetry
+2024-02-08 10:44:42,586 INFO    Thread-17 :28403 [upload_job.py:push():143] Uploaded file /tmp/tmp2b32fxeawandb/8ishdiqh-wandb-metadata.json
+2024-02-08 10:44:42,645 INFO    Thread-18 :28403 [upload_job.py:push():143] Uploaded file /tmp/tmp2b32fxeawandb/b613qb3r-diff.patch
+2024-02-08 10:44:42,685 DEBUG   SenderThread:28403 [sender.py:send():334] send: use_artifact
+2024-02-08 10:44:44,240 INFO    Thread-14 :28403 [dir_watcher.py:_on_file_created():275] file/dir created: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/output.log
+2024-02-08 10:44:46,242 INFO    Thread-14 :28403 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/output.log
+2024-02-08 10:44:47,271 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:44:52,275 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:44:57,057 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:44:57,059 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:44:57,278 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:45:02,062 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:45:02,281 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:45:07,065 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:45:07,291 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:45:08,266 INFO    Thread-14 :28403 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/config.yaml
+2024-02-08 10:45:12,068 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:45:12,667 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:45:17,071 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:45:17,670 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:45:22,074 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:45:22,674 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:45:27,078 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:45:27,676 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:45:32,081 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:45:32,681 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:45:36,469 DEBUG   SystemMonitor:28403 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-02-08 10:45:36,473 DEBUG   SenderThread:28403 [sender.py:send():334] send: stats
+2024-02-08 10:45:37,084 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:45:38,476 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:45:42,087 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:45:43,479 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:45:47,089 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:45:48,482 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:45:52,093 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:45:52,312 INFO    Thread-14 :28403 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/output.log
+2024-02-08 10:45:53,489 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:45:57,096 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:45:58,318 INFO    Thread-14 :28403 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/output.log
+2024-02-08 10:45:58,746 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:46:02,099 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:46:03,750 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:46:06,327 INFO    Thread-14 :28403 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/output.log
+2024-02-08 10:46:06,475 DEBUG   SenderThread:28403 [sender.py:send():334] send: stats
+2024-02-08 10:46:07,103 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:46:08,330 INFO    Thread-14 :28403 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/output.log
+2024-02-08 10:46:09,483 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:46:12,106 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:46:14,486 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:46:17,110 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:46:19,490 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:46:22,114 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:46:24,494 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:46:27,117 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:46:29,498 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:46:32,121 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:46:34,502 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:46:36,476 DEBUG   SenderThread:28403 [sender.py:send():334] send: stats
+2024-02-08 10:46:37,125 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:46:40,480 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:46:42,128 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:46:45,483 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:46:47,132 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:46:50,487 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:46:52,135 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:46:55,490 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:46:57,139 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:47:00,494 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:47:02,143 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:47:05,498 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:47:06,478 DEBUG   SenderThread:28403 [sender.py:send():334] send: stats
+2024-02-08 10:47:07,146 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:47:11,482 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:47:12,149 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:47:16,485 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:47:17,153 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:47:21,488 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:47:22,156 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:47:26,491 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:47:27,159 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:47:31,494 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:47:32,163 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:47:36,480 DEBUG   SenderThread:28403 [sender.py:send():334] send: stats
+2024-02-08 10:47:37,167 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:47:37,483 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:47:42,170 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:47:42,486 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:47:47,173 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:47:47,489 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:47:52,177 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:47:52,493 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:47:57,181 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:47:57,495 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:48:02,184 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:48:02,498 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:48:06,482 DEBUG   SenderThread:28403 [sender.py:send():334] send: stats
+2024-02-08 10:48:07,187 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:48:08,485 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:48:12,191 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:48:13,488 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:48:17,194 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:48:18,491 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:48:22,197 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:48:23,494 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:48:27,200 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:48:28,497 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:48:32,204 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:48:33,501 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:48:36,484 DEBUG   SenderThread:28403 [sender.py:send():334] send: stats
+2024-02-08 10:48:37,207 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:48:39,488 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:48:42,211 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:48:44,491 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:48:47,214 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:48:49,495 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:48:52,218 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:48:54,499 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:48:57,222 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:48:59,502 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:49:02,225 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:49:04,505 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:49:06,486 DEBUG   SenderThread:28403 [sender.py:send():334] send: stats
+2024-02-08 10:49:07,228 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:49:10,491 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:49:12,232 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:49:15,495 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:49:17,236 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:49:20,498 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:49:22,239 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:49:25,501 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:49:27,243 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:49:30,505 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:49:32,247 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:49:35,509 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:49:36,489 DEBUG   SenderThread:28403 [sender.py:send():334] send: stats
+2024-02-08 10:49:37,250 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:49:41,494 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:49:42,254 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:49:46,497 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:49:47,257 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:49:51,500 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:49:52,261 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:49:56,504 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:49:57,265 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:50:00,590 INFO    Thread-14 :28403 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/output.log
+2024-02-08 10:50:01,938 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:50:02,269 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:50:06,490 DEBUG   SenderThread:28403 [sender.py:send():334] send: stats
+2024-02-08 10:50:07,272 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:50:07,492 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:50:10,606 INFO    Thread-14 :28403 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/output.log
+2024-02-08 10:50:12,276 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 10:50:12,609 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:50:16,878 DEBUG   SenderThread:28403 [sender.py:send():334] send: telemetry
+2024-02-08 10:50:17,095 DEBUG   SenderThread:28403 [sender.py:send():334] send: config
+2024-02-08 10:50:17,113 DEBUG   SenderThread:28403 [sender.py:send():334] send: exit
+2024-02-08 10:50:17,113 INFO    SenderThread:28403 [sender.py:send_exit():557] handling exit code: 0
+2024-02-08 10:50:17,114 INFO    SenderThread:28403 [sender.py:send_exit():559] handling runtime: 340
+2024-02-08 10:50:17,115 INFO    SenderThread:28403 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-02-08 10:50:17,116 INFO    SenderThread:28403 [sender.py:send_exit():565] send defer
+2024-02-08 10:50:17,116 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 10:50:17,117 INFO    HandlerThread:28403 [handler.py:handle_request_defer():170] handle defer: 0
+2024-02-08 10:50:17,118 DEBUG   SenderThread:28403 [sender.py:send_request():361] send_request: defer
+2024-02-08 10:50:17,118 INFO    SenderThread:28403 [sender.py:send_request_defer():581] handle sender defer: 0
+2024-02-08 10:50:17,118 INFO    SenderThread:28403 [sender.py:transition_state():585] send defer: 1
+2024-02-08 10:50:17,119 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 10:50:17,119 INFO    HandlerThread:28403 [handler.py:handle_request_defer():170] handle defer: 1
+2024-02-08 10:50:17,120 DEBUG   SenderThread:28403 [sender.py:send_request():361] send_request: defer
+2024-02-08 10:50:17,121 INFO    SenderThread:28403 [sender.py:send_request_defer():581] handle sender defer: 1
+2024-02-08 10:50:17,121 INFO    SenderThread:28403 [sender.py:transition_state():585] send defer: 2
+2024-02-08 10:50:17,121 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 10:50:17,121 INFO    HandlerThread:28403 [handler.py:handle_request_defer():170] handle defer: 2
+2024-02-08 10:50:17,122 INFO    HandlerThread:28403 [system_monitor.py:finish():161] Stopping system monitor
+2024-02-08 10:50:17,125 DEBUG   SystemMonitor:28403 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-02-08 10:50:17,125 DEBUG   SystemMonitor:28403 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-02-08 10:50:17,130 INFO    HandlerThread:28403 [interfaces.py:finish():175] Joined cpu
+2024-02-08 10:50:17,131 INFO    HandlerThread:28403 [interfaces.py:finish():175] Joined disk
+2024-02-08 10:50:17,131 INFO    HandlerThread:28403 [interfaces.py:finish():175] Joined memory
+2024-02-08 10:50:17,131 INFO    HandlerThread:28403 [interfaces.py:finish():175] Joined network
+2024-02-08 10:50:17,133 DEBUG   SenderThread:28403 [sender.py:send_request():361] send_request: defer
+2024-02-08 10:50:17,133 INFO    SenderThread:28403 [sender.py:send_request_defer():581] handle sender defer: 2
+2024-02-08 10:50:17,133 INFO    SenderThread:28403 [sender.py:transition_state():585] send defer: 3
+2024-02-08 10:50:17,134 DEBUG   SenderThread:28403 [sender.py:send():334] send: stats
+2024-02-08 10:50:17,135 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 10:50:17,135 INFO    HandlerThread:28403 [handler.py:handle_request_defer():170] handle defer: 3
+2024-02-08 10:50:17,137 DEBUG   SenderThread:28403 [sender.py:send_request():361] send_request: defer
+2024-02-08 10:50:17,137 INFO    SenderThread:28403 [sender.py:send_request_defer():581] handle sender defer: 3
+2024-02-08 10:50:17,137 INFO    SenderThread:28403 [sender.py:transition_state():585] send defer: 4
+2024-02-08 10:50:17,138 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 10:50:17,138 INFO    HandlerThread:28403 [handler.py:handle_request_defer():170] handle defer: 4
+2024-02-08 10:50:17,139 DEBUG   SenderThread:28403 [sender.py:send_request():361] send_request: defer
+2024-02-08 10:50:17,140 INFO    SenderThread:28403 [sender.py:send_request_defer():581] handle sender defer: 4
+2024-02-08 10:50:17,140 INFO    SenderThread:28403 [sender.py:transition_state():585] send defer: 5
+2024-02-08 10:50:17,140 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 10:50:17,141 INFO    HandlerThread:28403 [handler.py:handle_request_defer():170] handle defer: 5
+2024-02-08 10:50:17,142 DEBUG   SenderThread:28403 [sender.py:send():334] send: summary
+2024-02-08 10:50:17,144 INFO    SenderThread:28403 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-02-08 10:50:17,145 DEBUG   SenderThread:28403 [sender.py:send_request():361] send_request: defer
+2024-02-08 10:50:17,145 INFO    SenderThread:28403 [sender.py:send_request_defer():581] handle sender defer: 5
+2024-02-08 10:50:17,145 INFO    SenderThread:28403 [sender.py:transition_state():585] send defer: 6
+2024-02-08 10:50:17,146 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 10:50:17,146 INFO    HandlerThread:28403 [handler.py:handle_request_defer():170] handle defer: 6
+2024-02-08 10:50:17,147 DEBUG   SenderThread:28403 [sender.py:send_request():361] send_request: defer
+2024-02-08 10:50:17,148 INFO    SenderThread:28403 [sender.py:send_request_defer():581] handle sender defer: 6
+2024-02-08 10:50:17,154 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 10:50:17,498 INFO    SenderThread:28403 [sender.py:transition_state():585] send defer: 7
+2024-02-08 10:50:17,499 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 10:50:17,500 INFO    HandlerThread:28403 [handler.py:handle_request_defer():170] handle defer: 7
+2024-02-08 10:50:17,501 DEBUG   SenderThread:28403 [sender.py:send_request():361] send_request: defer
+2024-02-08 10:50:17,502 INFO    SenderThread:28403 [sender.py:send_request_defer():581] handle sender defer: 7
+2024-02-08 10:50:17,615 INFO    Thread-14 :28403 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/config.yaml
+2024-02-08 10:50:17,616 INFO    Thread-14 :28403 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/wandb-summary.json
+2024-02-08 10:50:17,616 INFO    Thread-14 :28403 [dir_watcher.py:_on_file_created():275] file/dir created: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/code/_session_history.ipynb
+2024-02-08 10:50:17,617 INFO    Thread-14 :28403 [dir_watcher.py:_on_file_created():275] file/dir created: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/code
+2024-02-08 10:50:17,914 INFO    SenderThread:28403 [sender.py:transition_state():585] send defer: 8
+2024-02-08 10:50:17,915 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 10:50:17,916 INFO    HandlerThread:28403 [handler.py:handle_request_defer():170] handle defer: 8
+2024-02-08 10:50:17,917 DEBUG   SenderThread:28403 [sender.py:send_request():361] send_request: defer
+2024-02-08 10:50:17,917 INFO    SenderThread:28403 [sender.py:send_request_defer():581] handle sender defer: 8
+2024-02-08 10:50:17,918 INFO    SenderThread:28403 [sender.py:transition_state():585] send defer: 9
+2024-02-08 10:50:17,919 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 10:50:17,919 INFO    HandlerThread:28403 [handler.py:handle_request_defer():170] handle defer: 9
+2024-02-08 10:50:17,920 DEBUG   SenderThread:28403 [sender.py:send_request():361] send_request: defer
+2024-02-08 10:50:17,920 INFO    SenderThread:28403 [sender.py:send_request_defer():581] handle sender defer: 9
+2024-02-08 10:50:17,921 INFO    SenderThread:28403 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-02-08 10:50:18,119 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: poll_exit
+2024-02-08 10:50:18,617 INFO    Thread-14 :28403 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/output.log
+2024-02-08 10:50:18,619 INFO    SenderThread:28403 [dir_watcher.py:finish():392] scan: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files
+2024-02-08 10:50:18,619 INFO    SenderThread:28403 [dir_watcher.py:finish():406] scan save: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/config.yaml config.yaml
+2024-02-08 10:50:18,620 INFO    SenderThread:28403 [dir_watcher.py:finish():406] scan save: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/diff.patch diff.patch
+2024-02-08 10:50:18,620 INFO    SenderThread:28403 [dir_watcher.py:finish():406] scan save: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/requirements.txt requirements.txt
+2024-02-08 10:50:18,621 INFO    SenderThread:28403 [dir_watcher.py:finish():406] scan save: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/wandb-summary.json wandb-summary.json
+2024-02-08 10:50:18,621 INFO    SenderThread:28403 [dir_watcher.py:finish():406] scan save: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/wandb-metadata.json wandb-metadata.json
+2024-02-08 10:50:18,621 INFO    SenderThread:28403 [dir_watcher.py:finish():406] scan save: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/conda-environment.yaml conda-environment.yaml
+2024-02-08 10:50:18,622 INFO    SenderThread:28403 [dir_watcher.py:finish():406] scan save: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/output.log output.log
+2024-02-08 10:50:18,624 INFO    SenderThread:28403 [dir_watcher.py:finish():406] scan save: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/code/_session_history.ipynb code/_session_history.ipynb
+2024-02-08 10:50:18,683 INFO    SenderThread:28403 [sender.py:transition_state():585] send defer: 10
+2024-02-08 10:50:18,684 DEBUG   SenderThread:28403 [sender.py:send_request():361] send_request: poll_exit
+2024-02-08 10:50:18,686 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 10:50:18,686 INFO    HandlerThread:28403 [handler.py:handle_request_defer():170] handle defer: 10
+2024-02-08 10:50:18,690 DEBUG   SenderThread:28403 [sender.py:send_request():361] send_request: defer
+2024-02-08 10:50:18,691 INFO    SenderThread:28403 [sender.py:send_request_defer():581] handle sender defer: 10
+2024-02-08 10:50:18,692 INFO    SenderThread:28403 [file_pusher.py:finish():160] shutting down file pusher
+2024-02-08 10:50:19,121 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: poll_exit
+2024-02-08 10:50:19,122 DEBUG   SenderThread:28403 [sender.py:send_request():361] send_request: poll_exit
+2024-02-08 10:50:19,255 INFO    Thread-24 :28403 [upload_job.py:push():143] Uploaded file /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/code/_session_history.ipynb
+2024-02-08 10:50:19,283 INFO    Thread-23 :28403 [upload_job.py:push():143] Uploaded file /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/output.log
+2024-02-08 10:50:19,315 INFO    Thread-22 :28403 [upload_job.py:push():143] Uploaded file /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/conda-environment.yaml
+2024-02-08 10:50:19,322 INFO    Thread-21 :28403 [upload_job.py:push():143] Uploaded file /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/wandb-summary.json
+2024-02-08 10:50:19,329 INFO    Thread-20 :28403 [upload_job.py:push():143] Uploaded file /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/requirements.txt
+2024-02-08 10:50:19,336 INFO    Thread-19 :28403 [upload_job.py:push():143] Uploaded file /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/files/config.yaml
+2024-02-08 10:50:19,538 INFO    Thread-13 :28403 [sender.py:transition_state():585] send defer: 11
+2024-02-08 10:50:19,539 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 10:50:19,539 INFO    HandlerThread:28403 [handler.py:handle_request_defer():170] handle defer: 11
+2024-02-08 10:50:19,541 DEBUG   SenderThread:28403 [sender.py:send_request():361] send_request: defer
+2024-02-08 10:50:19,541 INFO    SenderThread:28403 [sender.py:send_request_defer():581] handle sender defer: 11
+2024-02-08 10:50:19,541 INFO    SenderThread:28403 [file_pusher.py:join():165] waiting for file pusher
+2024-02-08 10:50:19,542 INFO    SenderThread:28403 [sender.py:transition_state():585] send defer: 12
+2024-02-08 10:50:19,542 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 10:50:19,542 INFO    HandlerThread:28403 [handler.py:handle_request_defer():170] handle defer: 12
+2024-02-08 10:50:19,544 DEBUG   SenderThread:28403 [sender.py:send_request():361] send_request: defer
+2024-02-08 10:50:19,544 INFO    SenderThread:28403 [sender.py:send_request_defer():581] handle sender defer: 12
+2024-02-08 10:50:19,795 INFO    SenderThread:28403 [sender.py:transition_state():585] send defer: 13
+2024-02-08 10:50:19,796 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 10:50:19,796 INFO    HandlerThread:28403 [handler.py:handle_request_defer():170] handle defer: 13
+2024-02-08 10:50:19,797 DEBUG   SenderThread:28403 [sender.py:send_request():361] send_request: defer
+2024-02-08 10:50:19,798 INFO    SenderThread:28403 [sender.py:send_request_defer():581] handle sender defer: 13
+2024-02-08 10:50:19,798 INFO    SenderThread:28403 [sender.py:transition_state():585] send defer: 14
+2024-02-08 10:50:19,799 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 10:50:19,799 INFO    HandlerThread:28403 [handler.py:handle_request_defer():170] handle defer: 14
+2024-02-08 10:50:19,801 DEBUG   SenderThread:28403 [sender.py:send():334] send: final
+2024-02-08 10:50:19,802 DEBUG   SenderThread:28403 [sender.py:send():334] send: footer
+2024-02-08 10:50:19,802 DEBUG   SenderThread:28403 [sender.py:send_request():361] send_request: defer
+2024-02-08 10:50:19,802 INFO    SenderThread:28403 [sender.py:send_request_defer():581] handle sender defer: 14
+2024-02-08 10:50:19,806 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: poll_exit
+2024-02-08 10:50:19,807 DEBUG   SenderThread:28403 [sender.py:send_request():361] send_request: poll_exit
+2024-02-08 10:50:19,810 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: server_info
+2024-02-08 10:50:19,811 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: get_summary
+2024-02-08 10:50:19,811 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: sampled_history
+2024-02-08 10:50:19,814 DEBUG   SenderThread:28403 [sender.py:send_request():361] send_request: server_info
+2024-02-08 10:50:20,225 DEBUG   HandlerThread:28403 [handler.py:handle_request():144] handle_request: shutdown
+2024-02-08 10:50:20,225 INFO    HandlerThread:28403 [handler.py:finish():841] shutting down handler
+2024-02-08 10:50:20,814 INFO    WriterThread:28403 [datastore.py:close():299] close: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240208_104435-9myiylht/run-9myiylht.wandb
+2024-02-08 10:50:21,222 INFO    SenderThread:28403 [sender.py:finish():1491] shutting down sender
+2024-02-08 10:50:21,224 INFO    SenderThread:28403 [file_pusher.py:finish():160] shutting down file pusher
+2024-02-08 10:50:21,224 INFO    SenderThread:28403 [file_pusher.py:join():165] waiting for file pusher

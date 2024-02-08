@@ -1,0 +1,15 @@
+artifact_uri: file:///home/stesta/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a8517fa114c24ff49f5871656b166bf9/artifacts
+end_time: 1707404542541
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a8517fa114c24ff49f5871656b166bf9
+run_name: adorable-stoat-825
+run_uuid: a8517fa114c24ff49f5871656b166bf9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707404364707
+status: 3
+tags: []
+user_id: stesta

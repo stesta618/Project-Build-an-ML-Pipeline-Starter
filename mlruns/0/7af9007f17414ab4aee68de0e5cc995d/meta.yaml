@@ -1,0 +1,15 @@
+artifact_uri: file:///home/stesta/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7af9007f17414ab4aee68de0e5cc995d/artifacts
+end_time: 1707422981188
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7af9007f17414ab4aee68de0e5cc995d
+run_name: flawless-elk-90
+run_uuid: 7af9007f17414ab4aee68de0e5cc995d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707422954797
+status: 3
+tags: []
+user_id: stesta

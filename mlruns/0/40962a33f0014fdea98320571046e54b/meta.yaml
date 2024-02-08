@@ -1,0 +1,15 @@
+artifact_uri: file:///home/stesta/Project-Build-an-ML-Pipeline-Starter/mlruns/0/40962a33f0014fdea98320571046e54b/artifacts
+end_time: 1707422420269
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 40962a33f0014fdea98320571046e54b
+run_name: peaceful-kit-880
+run_uuid: 40962a33f0014fdea98320571046e54b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707422293531
+status: 3
+tags: []
+user_id: stesta

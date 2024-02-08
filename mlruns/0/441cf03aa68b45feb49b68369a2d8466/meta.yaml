@@ -1,0 +1,15 @@
+artifact_uri: file:///home/stesta/Project-Build-an-ML-Pipeline-Starter/mlruns/0/441cf03aa68b45feb49b68369a2d8466/artifacts
+end_time: 1707422420703
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 441cf03aa68b45feb49b68369a2d8466
+run_name: delightful-ray-483
+run_uuid: 441cf03aa68b45feb49b68369a2d8466
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707422285591
+status: 3
+tags: []
+user_id: stesta

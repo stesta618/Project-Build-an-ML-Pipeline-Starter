@@ -1,0 +1,15 @@
+artifact_uri: file:///home/stesta/Project-Build-an-ML-Pipeline-Starter/mlruns/0/50665c7a1c7d416f8a2b60c517676eee/artifacts
+end_time: 1707421692217
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 50665c7a1c7d416f8a2b60c517676eee
+run_name: fun-sow-544
+run_uuid: 50665c7a1c7d416f8a2b60c517676eee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707421485955
+status: 3
+tags: []
+user_id: stesta

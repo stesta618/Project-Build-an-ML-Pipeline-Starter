@@ -1,0 +1,15 @@
+artifact_uri: file:///home/stesta/Project-Build-an-ML-Pipeline-Starter/mlruns/0/58517394a09242b8b7adfef7d5395166/artifacts
+end_time: 1707421178485
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 58517394a09242b8b7adfef7d5395166
+run_name: likeable-stork-890
+run_uuid: 58517394a09242b8b7adfef7d5395166
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707420888019
+status: 3
+tags: []
+user_id: stesta

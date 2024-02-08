@@ -1,0 +1,15 @@
+artifact_uri: file:///home/stesta/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2ab79b87b5354f90b50afe79487d4c61/artifacts
+end_time: 1707421372137
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2ab79b87b5354f90b50afe79487d4c61
+run_name: indecisive-foal-7
+run_uuid: 2ab79b87b5354f90b50afe79487d4c61
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707421179070
+status: 3
+tags: []
+user_id: stesta

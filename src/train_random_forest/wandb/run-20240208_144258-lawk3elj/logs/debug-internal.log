@@ -1,0 +1,243 @@
+2024-02-08 14:42:58,439 INFO    StreamThr :29805 [internal.py:wandb_internal():87] W&B internal server running at pid: 29805, started at: 2024-02-08 14:42:58.437667
+2024-02-08 14:42:58,448 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: status
+2024-02-08 14:42:58,456 INFO    WriterThread:29805 [datastore.py:open_for_write():85] open: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/run-lawk3elj.wandb
+2024-02-08 14:42:58,458 DEBUG   SenderThread:29805 [sender.py:send():334] send: header
+2024-02-08 14:42:58,481 DEBUG   SenderThread:29805 [sender.py:send():334] send: run
+2024-02-08 14:42:59,154 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: check_version
+2024-02-08 14:42:59,156 INFO    SenderThread:29805 [dir_watcher.py:__init__():216] watching files in: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files
+2024-02-08 14:42:59,157 INFO    SenderThread:29805 [sender.py:_start_run_threads():1065] run started: lawk3elj with start time 1707421378.436404
+2024-02-08 14:42:59,157 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: summary_record
+2024-02-08 14:42:59,158 INFO    SenderThread:29805 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-02-08 14:42:59,159 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: check_version
+2024-02-08 14:42:59,358 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: run_start
+2024-02-08 14:42:59,362 DEBUG   HandlerThread:29805 [system_info.py:__init__():31] System info init
+2024-02-08 14:42:59,362 DEBUG   HandlerThread:29805 [system_info.py:__init__():46] System info init done
+2024-02-08 14:42:59,362 INFO    HandlerThread:29805 [system_monitor.py:start():151] Starting system monitor
+2024-02-08 14:42:59,363 INFO    SystemMonitor:29805 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-02-08 14:42:59,365 INFO    HandlerThread:29805 [system_monitor.py:probe():172] Collecting system info
+2024-02-08 14:42:59,369 INFO    SystemMonitor:29805 [interfaces.py:start():168] Started cpu
+2024-02-08 14:42:59,371 INFO    SystemMonitor:29805 [interfaces.py:start():168] Started disk
+2024-02-08 14:42:59,372 INFO    SystemMonitor:29805 [interfaces.py:start():168] Started memory
+2024-02-08 14:42:59,374 INFO    SystemMonitor:29805 [interfaces.py:start():168] Started network
+2024-02-08 14:42:59,395 DEBUG   HandlerThread:29805 [system_info.py:probe():195] Probing system
+2024-02-08 14:42:59,497 DEBUG   HandlerThread:29805 [system_info.py:_probe_git():180] Probing git
+2024-02-08 14:42:59,529 DEBUG   HandlerThread:29805 [system_info.py:_probe_git():188] Probing git done
+2024-02-08 14:42:59,530 DEBUG   HandlerThread:29805 [system_info.py:probe():241] Probing system done
+2024-02-08 14:42:59,530 DEBUG   HandlerThread:29805 [system_monitor.py:probe():181] {'os': 'Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.9.18', 'heartbeatAt': '2024-02-08T19:42:59.395714', 'startedAt': '2024-02-08T19:42:58.411224', 'docker': None, 'cuda': None, 'args': ('--trainval_artifact', 'trainval_data.csv:latest', '--val_size', '0.2', '--random_seed', '42', '--stratify_by', 'neighbourhood_group', '--rf_config', '/home/stesta/Project-Build-an-ML-Pipeline-Starter/multirun/2024-02-08/14-34-47/2/rf_config.json', '--max_tfidf_features', '5', '--output_artifact', 'random_forest_export'), 'state': 'running', 'program': '/home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py', 'codePath': 'src/train_random_forest/run.py', 'git': {'remote': 'https://github.com/stesta618/Project-Build-an-ML-Pipeline-Starter.git', 'commit': '8482f9b3554727b54f02f0391242966bde2ee70d'}, 'email': 'shil699@wgu.edu', 'root': '/home/stesta/Project-Build-an-ML-Pipeline-Starter', 'host': 'Shannon-Laptop', 'username': 'stesta', 'executable': '/home/stesta/miniconda3/envs/mlflow-d6c04384fb9356865b6d231fc3cbd1b1b9b4863e/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2112.007, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2112.007, 'min': 0.0, 'max': 0.0}, {'current': 2112.007, 'min': 0.0, 'max': 0.0}, {'current': 2112.007, 'min': 0.0, 'max': 0.0}, {'current': 2112.007, 'min': 0.0, 'max': 0.0}, {'current': 2112.007, 'min': 0.0, 'max': 0.0}, {'current': 2112.007, 'min': 0.0, 'max': 0.0}, {'current': 2112.007, 'min': 0.0, 'max': 0.0}, {'current': 2112.007, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 1006.853931427002, 'used': 20.01669692993164}, 'memory': {'total': 3.720684051513672}}
+2024-02-08 14:42:59,531 INFO    HandlerThread:29805 [system_monitor.py:probe():182] Finished collecting system info
+2024-02-08 14:42:59,531 INFO    HandlerThread:29805 [system_monitor.py:probe():185] Publishing system info
+2024-02-08 14:42:59,531 DEBUG   HandlerThread:29805 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-02-08 14:42:59,532 DEBUG   HandlerThread:29805 [system_info.py:_save_pip():67] Saving pip packages done
+2024-02-08 14:42:59,532 DEBUG   HandlerThread:29805 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-02-08 14:43:00,158 INFO    Thread-14 :29805 [dir_watcher.py:_on_file_created():275] file/dir created: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/conda-environment.yaml
+2024-02-08 14:43:00,158 INFO    Thread-14 :29805 [dir_watcher.py:_on_file_created():275] file/dir created: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/wandb-summary.json
+2024-02-08 14:43:00,158 INFO    Thread-14 :29805 [dir_watcher.py:_on_file_created():275] file/dir created: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/requirements.txt
+2024-02-08 14:43:01,629 DEBUG   HandlerThread:29805 [system_info.py:_save_conda():86] Saving conda packages done
+2024-02-08 14:43:01,630 INFO    HandlerThread:29805 [system_monitor.py:probe():187] Finished publishing system info
+2024-02-08 14:43:01,634 DEBUG   SenderThread:29805 [sender.py:send():334] send: files
+2024-02-08 14:43:01,634 INFO    SenderThread:29805 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2024-02-08 14:43:01,645 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-08 14:43:01,647 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: stop_status
+2024-02-08 14:43:02,159 INFO    Thread-14 :29805 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/conda-environment.yaml
+2024-02-08 14:43:02,159 INFO    Thread-14 :29805 [dir_watcher.py:_on_file_created():275] file/dir created: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/wandb-metadata.json
+2024-02-08 14:43:06,550 DEBUG   SenderThread:29805 [sender.py:send():334] send: telemetry
+2024-02-08 14:43:06,551 DEBUG   SenderThread:29805 [sender.py:send():334] send: config
+2024-02-08 14:43:06,552 DEBUG   SenderThread:29805 [sender.py:send():334] send: config
+2024-02-08 14:43:06,553 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 14:43:07,141 DEBUG   SenderThread:29805 [sender.py:send():334] send: use_artifact
+2024-02-08 14:43:07,250 INFO    Thread-17 :29805 [upload_job.py:push():143] Uploaded file /tmp/tmp47u60fh2wandb/pb7byrdw-wandb-metadata.json
+2024-02-08 14:43:08,164 INFO    Thread-14 :29805 [dir_watcher.py:_on_file_created():275] file/dir created: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/output.log
+2024-02-08 14:43:10,165 INFO    Thread-14 :29805 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/output.log
+2024-02-08 14:43:11,904 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 14:43:16,643 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 14:43:16,905 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 14:43:21,645 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 14:43:21,907 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 14:43:26,647 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 14:43:26,908 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 14:43:31,648 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 14:43:31,923 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 14:43:36,650 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 14:43:37,186 INFO    Thread-14 :29805 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/config.yaml
+2024-02-08 14:43:41,595 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 14:43:41,651 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 14:43:46,597 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 14:43:46,654 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 14:43:51,599 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 14:43:51,655 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 14:43:56,600 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 14:43:56,657 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 14:43:59,375 DEBUG   SystemMonitor:29805 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-02-08 14:43:59,378 DEBUG   SenderThread:29805 [sender.py:send():334] send: stats
+2024-02-08 14:44:01,659 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 14:44:02,380 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 14:44:06,663 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 14:44:07,382 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 14:44:11,668 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 14:44:12,384 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 14:44:16,671 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 14:44:17,385 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 14:44:21,672 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 14:44:22,387 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 14:44:26,673 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 14:44:27,569 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 14:44:28,226 INFO    Thread-14 :29805 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/output.log
+2024-02-08 14:44:29,378 DEBUG   SenderThread:29805 [sender.py:send():334] send: stats
+2024-02-08 14:44:30,227 INFO    Thread-14 :29805 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/output.log
+2024-02-08 14:44:30,596 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: log_artifact
+2024-02-08 14:44:30,597 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: log_artifact
+2024-02-08 14:44:31,687 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 14:44:31,818 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-08 14:44:31,881 INFO    Thread-24 :29805 [upload_job.py:push():98] Skipped uploading /home/stesta/.local/share/wandb/artifacts/staging/tmp6gmb24yx
+2024-02-08 14:44:31,884 INFO    Thread-23 :29805 [upload_job.py:push():98] Skipped uploading /home/stesta/.local/share/wandb/artifacts/staging/tmpghjuvwqe
+2024-02-08 14:44:31,885 INFO    Thread-21 :29805 [upload_job.py:push():98] Skipped uploading /home/stesta/.local/share/wandb/artifacts/staging/tmpunxf2zh2
+2024-02-08 14:44:31,891 INFO    Thread-20 :29805 [upload_job.py:push():98] Skipped uploading /home/stesta/.local/share/wandb/artifacts/staging/tmpbiy9fg3c
+2024-02-08 14:44:32,230 INFO    Thread-14 :29805 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/output.log
+2024-02-08 14:44:32,231 INFO    Thread-14 :29805 [dir_watcher.py:_on_file_created():275] file/dir created: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/media/images/feature_importance_0_18c8d04dfa4fbf50fec1.png
+2024-02-08 14:44:32,232 INFO    Thread-14 :29805 [dir_watcher.py:_on_file_created():275] file/dir created: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/media
+2024-02-08 14:44:32,233 INFO    Thread-14 :29805 [dir_watcher.py:_on_file_created():275] file/dir created: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/media/images
+2024-02-08 14:44:32,241 INFO    Thread-19 :29805 [upload_job.py:push():101] Uploaded file /home/stesta/.local/share/wandb/artifacts/staging/tmpq82_s76m
+2024-02-08 14:44:32,829 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: poll_exit
+2024-02-08 14:44:32,921 INFO    Thread-25 :29805 [upload_job.py:push():143] Uploaded file /tmp/tmp47u60fh2wandb/bixy692g-media/images/feature_importance_0_18c8d04dfa4fbf50fec1.png
+2024-02-08 14:44:34,455 INFO    Thread-22 :29805 [upload_job.py:push():101] Uploaded file /home/stesta/.local/share/wandb/artifacts/staging/tmppi6ws_n4
+2024-02-08 14:44:37,836 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-08 14:44:38,473 INFO    SenderThread:29805 [sender.py:send_request_log_artifact():1379] logged artifact random_forest_export - {'id': 'QXJ0aWZhY3Q6NzE3NDQxMTI1', 'digest': '551eb4d5f7d255540c9bc8333ee21a85', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzODI3MDA0Mw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzE3NDQwMDcz', 'versionIndex': 1}}, 'version': 'latest'}
+2024-02-08 14:44:38,475 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: summary_record
+2024-02-08 14:44:38,483 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 14:44:38,484 INFO    SenderThread:29805 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-02-08 14:44:38,485 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: summary_record
+2024-02-08 14:44:38,493 INFO    SenderThread:29805 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-02-08 14:44:38,494 DEBUG   SenderThread:29805 [sender.py:send():334] send: files
+2024-02-08 14:44:38,494 INFO    SenderThread:29805 [sender.py:_save_file():1319] saving file media/images/feature_importance_0_18c8d04dfa4fbf50fec1.png with policy now
+2024-02-08 14:44:38,495 DEBUG   SenderThread:29805 [sender.py:send():334] send: history
+2024-02-08 14:44:38,496 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: summary_record
+2024-02-08 14:44:38,497 INFO    SenderThread:29805 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-02-08 14:44:38,498 DEBUG   SenderThread:29805 [sender.py:send():334] send: exit
+2024-02-08 14:44:38,498 INFO    SenderThread:29805 [sender.py:send_exit():557] handling exit code: 0
+2024-02-08 14:44:38,499 INFO    SenderThread:29805 [sender.py:send_exit():559] handling runtime: 92
+2024-02-08 14:44:38,500 INFO    SenderThread:29805 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-02-08 14:44:38,500 INFO    SenderThread:29805 [sender.py:send_exit():565] send defer
+2024-02-08 14:44:38,501 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: poll_exit
+2024-02-08 14:44:38,502 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 14:44:38,502 INFO    HandlerThread:29805 [handler.py:handle_request_defer():170] handle defer: 0
+2024-02-08 14:44:38,505 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: defer
+2024-02-08 14:44:38,505 INFO    SenderThread:29805 [sender.py:send_request_defer():581] handle sender defer: 0
+2024-02-08 14:44:38,505 INFO    SenderThread:29805 [sender.py:transition_state():585] send defer: 1
+2024-02-08 14:44:38,506 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 14:44:38,506 INFO    HandlerThread:29805 [handler.py:handle_request_defer():170] handle defer: 1
+2024-02-08 14:44:38,508 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: defer
+2024-02-08 14:44:38,509 INFO    SenderThread:29805 [sender.py:send_request_defer():581] handle sender defer: 1
+2024-02-08 14:44:38,509 INFO    SenderThread:29805 [sender.py:transition_state():585] send defer: 2
+2024-02-08 14:44:38,510 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 14:44:38,510 INFO    HandlerThread:29805 [handler.py:handle_request_defer():170] handle defer: 2
+2024-02-08 14:44:38,510 INFO    HandlerThread:29805 [system_monitor.py:finish():161] Stopping system monitor
+2024-02-08 14:44:38,515 DEBUG   SystemMonitor:29805 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-02-08 14:44:38,516 DEBUG   SystemMonitor:29805 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-02-08 14:44:38,529 INFO    HandlerThread:29805 [interfaces.py:finish():175] Joined cpu
+2024-02-08 14:44:38,530 INFO    HandlerThread:29805 [interfaces.py:finish():175] Joined disk
+2024-02-08 14:44:38,530 INFO    HandlerThread:29805 [interfaces.py:finish():175] Joined memory
+2024-02-08 14:44:38,530 INFO    HandlerThread:29805 [interfaces.py:finish():175] Joined network
+2024-02-08 14:44:38,532 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: defer
+2024-02-08 14:44:38,532 INFO    SenderThread:29805 [sender.py:send_request_defer():581] handle sender defer: 2
+2024-02-08 14:44:38,532 INFO    SenderThread:29805 [sender.py:transition_state():585] send defer: 3
+2024-02-08 14:44:38,533 DEBUG   SenderThread:29805 [sender.py:send():334] send: stats
+2024-02-08 14:44:38,534 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 14:44:38,534 INFO    HandlerThread:29805 [handler.py:handle_request_defer():170] handle defer: 3
+2024-02-08 14:44:38,535 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: defer
+2024-02-08 14:44:38,535 INFO    SenderThread:29805 [sender.py:send_request_defer():581] handle sender defer: 3
+2024-02-08 14:44:38,535 INFO    SenderThread:29805 [sender.py:transition_state():585] send defer: 4
+2024-02-08 14:44:38,536 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 14:44:38,536 INFO    HandlerThread:29805 [handler.py:handle_request_defer():170] handle defer: 4
+2024-02-08 14:44:38,538 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: defer
+2024-02-08 14:44:38,538 INFO    SenderThread:29805 [sender.py:send_request_defer():581] handle sender defer: 4
+2024-02-08 14:44:38,538 INFO    SenderThread:29805 [sender.py:transition_state():585] send defer: 5
+2024-02-08 14:44:38,539 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 14:44:38,539 INFO    HandlerThread:29805 [handler.py:handle_request_defer():170] handle defer: 5
+2024-02-08 14:44:38,541 DEBUG   SenderThread:29805 [sender.py:send():334] send: summary
+2024-02-08 14:44:38,542 INFO    SenderThread:29805 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-02-08 14:44:38,542 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: defer
+2024-02-08 14:44:38,543 INFO    SenderThread:29805 [sender.py:send_request_defer():581] handle sender defer: 5
+2024-02-08 14:44:38,543 INFO    SenderThread:29805 [sender.py:transition_state():585] send defer: 6
+2024-02-08 14:44:38,543 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 14:44:38,544 INFO    HandlerThread:29805 [handler.py:handle_request_defer():170] handle defer: 6
+2024-02-08 14:44:38,545 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: defer
+2024-02-08 14:44:38,545 INFO    SenderThread:29805 [sender.py:send_request_defer():581] handle sender defer: 6
+2024-02-08 14:44:38,545 INFO    SenderThread:29805 [sender.py:transition_state():585] send defer: 7
+2024-02-08 14:44:38,546 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: status_report
+2024-02-08 14:44:38,547 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 14:44:38,547 INFO    HandlerThread:29805 [handler.py:handle_request_defer():170] handle defer: 7
+2024-02-08 14:44:38,548 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: defer
+2024-02-08 14:44:38,549 INFO    SenderThread:29805 [sender.py:send_request_defer():581] handle sender defer: 7
+2024-02-08 14:44:39,187 INFO    Thread-26 :29805 [upload_job.py:push():143] Uploaded file /tmp/tmp47u60fh2wandb/jjyvvtfx-media/images/feature_importance_0_18c8d04dfa4fbf50fec1.png
+2024-02-08 14:44:39,239 INFO    Thread-14 :29805 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/wandb-summary.json
+2024-02-08 14:44:39,982 INFO    SenderThread:29805 [sender.py:transition_state():585] send defer: 8
+2024-02-08 14:44:39,991 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 14:44:39,991 INFO    HandlerThread:29805 [handler.py:handle_request_defer():170] handle defer: 8
+2024-02-08 14:44:39,993 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: defer
+2024-02-08 14:44:39,993 INFO    SenderThread:29805 [sender.py:send_request_defer():581] handle sender defer: 8
+2024-02-08 14:44:40,009 INFO    SenderThread:29805 [sender.py:transition_state():585] send defer: 9
+2024-02-08 14:44:40,010 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 14:44:40,010 INFO    HandlerThread:29805 [handler.py:handle_request_defer():170] handle defer: 9
+2024-02-08 14:44:40,012 DEBUG   SenderThread:29805 [sender.py:send():334] send: artifact
+2024-02-08 14:44:40,241 INFO    Thread-14 :29805 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/output.log
+2024-02-08 14:44:41,024 INFO    SenderThread:29805 [sender.py:send_artifact():1415] sent artifact job-https___github.com_stesta618_Project-Build-an-ML-Pipeline-Starter.git_src_train_random_forest_run.py - {'id': 'QXJ0aWZhY3Q6NzE3NDM3OTEz', 'digest': 'f1a96df83ed2938143423bc27fec44e0', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_stesta618_Project-Build-an-ML-Pipeline-Starter.git_src_train_random_forest_run.py', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzODI3MDA1NQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzE3NDM3OTEz', 'versionIndex': 0}}, 'version': 'v0'}
+2024-02-08 14:44:41,025 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: defer
+2024-02-08 14:44:41,026 INFO    SenderThread:29805 [sender.py:send_request_defer():581] handle sender defer: 9
+2024-02-08 14:44:41,026 INFO    SenderThread:29805 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-02-08 14:44:41,244 INFO    SenderThread:29805 [dir_watcher.py:finish():392] scan: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files
+2024-02-08 14:44:41,245 INFO    SenderThread:29805 [dir_watcher.py:finish():406] scan save: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/config.yaml config.yaml
+2024-02-08 14:44:41,245 INFO    SenderThread:29805 [dir_watcher.py:finish():406] scan save: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/requirements.txt requirements.txt
+2024-02-08 14:44:41,246 INFO    SenderThread:29805 [dir_watcher.py:finish():406] scan save: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/wandb-summary.json wandb-summary.json
+2024-02-08 14:44:41,246 INFO    SenderThread:29805 [dir_watcher.py:finish():406] scan save: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/wandb-metadata.json wandb-metadata.json
+2024-02-08 14:44:41,247 INFO    SenderThread:29805 [dir_watcher.py:finish():406] scan save: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/conda-environment.yaml conda-environment.yaml
+2024-02-08 14:44:41,247 INFO    SenderThread:29805 [dir_watcher.py:finish():406] scan save: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/output.log output.log
+2024-02-08 14:44:41,291 INFO    SenderThread:29805 [dir_watcher.py:finish():406] scan save: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/media/images/feature_importance_0_18c8d04dfa4fbf50fec1.png media/images/feature_importance_0_18c8d04dfa4fbf50fec1.png
+2024-02-08 14:44:41,292 INFO    SenderThread:29805 [sender.py:transition_state():585] send defer: 10
+2024-02-08 14:44:41,299 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 14:44:41,300 INFO    HandlerThread:29805 [handler.py:handle_request_defer():170] handle defer: 10
+2024-02-08 14:44:41,301 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: defer
+2024-02-08 14:44:41,301 INFO    SenderThread:29805 [sender.py:send_request_defer():581] handle sender defer: 10
+2024-02-08 14:44:41,302 INFO    SenderThread:29805 [file_pusher.py:finish():160] shutting down file pusher
+2024-02-08 14:44:41,874 INFO    Thread-30 :29805 [upload_job.py:push():143] Uploaded file /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/conda-environment.yaml
+2024-02-08 14:44:41,880 INFO    Thread-28 :29805 [upload_job.py:push():143] Uploaded file /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/requirements.txt
+2024-02-08 14:44:41,927 INFO    Thread-31 :29805 [upload_job.py:push():143] Uploaded file /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/output.log
+2024-02-08 14:44:41,933 INFO    Thread-29 :29805 [upload_job.py:push():143] Uploaded file /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/wandb-summary.json
+2024-02-08 14:44:41,939 INFO    Thread-27 :29805 [upload_job.py:push():143] Uploaded file /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/files/config.yaml
+2024-02-08 14:44:42,141 INFO    Thread-13 :29805 [sender.py:transition_state():585] send defer: 11
+2024-02-08 14:44:42,142 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 14:44:42,142 INFO    HandlerThread:29805 [handler.py:handle_request_defer():170] handle defer: 11
+2024-02-08 14:44:42,144 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: defer
+2024-02-08 14:44:42,144 INFO    SenderThread:29805 [sender.py:send_request_defer():581] handle sender defer: 11
+2024-02-08 14:44:42,144 INFO    SenderThread:29805 [file_pusher.py:join():165] waiting for file pusher
+2024-02-08 14:44:42,144 INFO    SenderThread:29805 [sender.py:transition_state():585] send defer: 12
+2024-02-08 14:44:42,145 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 14:44:42,145 INFO    HandlerThread:29805 [handler.py:handle_request_defer():170] handle defer: 12
+2024-02-08 14:44:42,146 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: defer
+2024-02-08 14:44:42,146 INFO    SenderThread:29805 [sender.py:send_request_defer():581] handle sender defer: 12
+2024-02-08 14:44:42,437 INFO    SenderThread:29805 [sender.py:transition_state():585] send defer: 13
+2024-02-08 14:44:42,437 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 14:44:42,438 INFO    HandlerThread:29805 [handler.py:handle_request_defer():170] handle defer: 13
+2024-02-08 14:44:42,439 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: defer
+2024-02-08 14:44:42,439 INFO    SenderThread:29805 [sender.py:send_request_defer():581] handle sender defer: 13
+2024-02-08 14:44:42,440 INFO    SenderThread:29805 [sender.py:transition_state():585] send defer: 14
+2024-02-08 14:44:42,440 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: defer
+2024-02-08 14:44:42,441 INFO    HandlerThread:29805 [handler.py:handle_request_defer():170] handle defer: 14
+2024-02-08 14:44:42,442 DEBUG   SenderThread:29805 [sender.py:send():334] send: final
+2024-02-08 14:44:42,443 DEBUG   SenderThread:29805 [sender.py:send():334] send: footer
+2024-02-08 14:44:42,443 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: defer
+2024-02-08 14:44:42,443 INFO    SenderThread:29805 [sender.py:send_request_defer():581] handle sender defer: 14
+2024-02-08 14:44:42,445 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: poll_exit
+2024-02-08 14:44:42,447 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: poll_exit
+2024-02-08 14:44:42,450 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: server_info
+2024-02-08 14:44:42,450 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: get_summary
+2024-02-08 14:44:42,451 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: sampled_history
+2024-02-08 14:44:42,453 DEBUG   SenderThread:29805 [sender.py:send_request():361] send_request: server_info
+2024-02-08 14:44:42,680 INFO    MainThread:29805 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2024-02-08 14:44:42,680 INFO    MainThread:29805 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2024-02-08 14:44:42,681 INFO    MainThread:29805 [wandb_run.py:_footer_sync_info():3383] logging synced files
+2024-02-08 14:44:42,683 DEBUG   HandlerThread:29805 [handler.py:handle_request():144] handle_request: shutdown
+2024-02-08 14:44:42,683 INFO    HandlerThread:29805 [handler.py:finish():841] shutting down handler
+2024-02-08 14:44:43,454 INFO    WriterThread:29805 [datastore.py:close():299] close: /home/stesta/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240208_144258-lawk3elj/run-lawk3elj.wandb
+2024-02-08 14:44:43,680 INFO    SenderThread:29805 [sender.py:finish():1491] shutting down sender
+2024-02-08 14:44:43,681 INFO    SenderThread:29805 [file_pusher.py:finish():160] shutting down file pusher
+2024-02-08 14:44:43,681 INFO    SenderThread:29805 [file_pusher.py:join():165] waiting for file pusher

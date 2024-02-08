@@ -1,0 +1,15 @@
+artifact_uri: file:///home/stesta/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f57e236a0d504519ad9820790d2e0f56/artifacts
+end_time: 1707421485554
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f57e236a0d504519ad9820790d2e0f56
+run_name: peaceful-newt-931
+run_uuid: f57e236a0d504519ad9820790d2e0f56
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707421372455
+status: 3
+tags: []
+user_id: stesta

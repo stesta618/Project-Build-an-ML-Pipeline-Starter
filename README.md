@@ -15,7 +15,7 @@ In this project you will build such a pipeline.
   * [The configuration](#the-configuration)
   * [Running the entire pipeline or just a selection of steps](#Running-the-entire-pipeline-or-just-a-selection-of-steps)
   * [Pre-existing components](#pre-existing-components)
-  * [Links to Project]
+  * [Links to Project](#links-to-project)
 
 ## Preliminary steps
 ### Fork the Starter kit
@@ -150,6 +150,7 @@ This will iterate over all the environments created by `mlflow` and remove them.
 ## Links to Project
 
 Weights and Biases: https://wandb.ai/wgu_machine_learning/nyc_airbnb/overview?workspace=user-shil699
+
 GitHub Repository: https://github.com/stesta618/Project-Build-an-ML-Pipeline-Starter
 
 ## License
